@@ -153,11 +153,14 @@ INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbol
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT ./proceedings.pdf
 INPUT /home/salv/.local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./proceedings.aux
+INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
@@ -165,8 +168,10 @@ INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /home/salv/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
