@@ -1,7 +1,6 @@
 \documentclass[11pt, twocolumn, a4paper]{article}
 
 \usepackage{graphicx}
-
 \setlength{\oddsidemargin}{0.0 cm}
 \setlength{\evensidemargin}{0.0 cm}
 \setlength{\topmargin}{-1cm}
@@ -24,6 +23,7 @@
 \usepackage{amsmath,amssymb}
 
 \begin{document}
+\thispagestyle{empty}
 
 \author{Salvatore La Cagnina}
 
@@ -51,14 +51,14 @@ This corresponds to an increase of a factor $50$ in statistics compared to the o
 The CMS experiment is an experiment at the LHC at CERN used to analyze pp collisions.
 The silicon pixel detector of the CMS detector covers $0 < \Phi < 2 \pi$ azimuth and a pseudorapidity of $| \eta | < 2.5$.
 In order to detect jets and electrons, the lead tungstate crystal electromagnetic and the brass and scintillator hadron calorimeter are used.
-Muons can be detected using the gas-ionization detectors outside the solenoid.%################################################
+Muons can be detected using the gas-ionization detectors outside the solenoid.
 Signal and background events are simulated with different Monte Carlo (MC) event generators such as \texttt{POWHEG},\texttt{PYTHIA},\texttt{HERWIG++} and \texttt{MG5\_aMC}.
-The Standard Model prediction is determined with \texttt{TOP++} for a top quark mass of $m_t = \SI{172.5}{GeV}$ and is calculated to be $\sigma _\ttbarm = \SI[parse-numbers=false]{832^{+20}_{-29} (scales) \pm 35 (PDF + \alpha_s)}{\pico\barn}$.
+The Standard Model prediction is determined with \texttt{TOP++} for a top quark mass of ${m_t = \SI{172.5}{GeV}}$ and is calculated to be ${\sigma _\ttbarm = \SI[parse-numbers=false]{832^{+20}_{-29} (scales) \pm 35 (PDF + \alpha_s)}{\pico\barn}}$.
 
-In order to suppress most background and to access the desired decay channel a certain selection is chosen.
+In order to suppress most background and to access the desired decay channel, a certain selection is chosen.
 The selection consists of the requirement of one isolated electron, one isolated muon with opposite electric charge, a transverse momentum $p_T > \SI{20}{GeV}$ and $| \eta | < 2.4$.
-The isolation criteria is based on the sum of the momentum of the reconstructed particles in a cone around the lepton subtracting its contribution.
-Furthermore, two or more jets with ${p_T > \SI{30}{GeV}}$ and ${| \eta | < 2.4}$ are necessary for a \ttbar candidate and an invariant mass of the electron and the muon of ${m_{e\mu} > \SI{20}{GeV}}$.
+The isolation criteria is based on the sum of the momentum of the reconstructed particles in a cone around the lepton subtracting its own contribution.
+Furthermore, two or more jets with ${p_T > \SI{30}{GeV}}$ and ${| \eta | < 2.4}$ are necessary for a \ttbar candidate and an invariant mass criteria of the sum of the electron and the muon of ${m_{e\mu} > \SI{20}{GeV}}$ is added to reduce $\tau$ induced background.
 Finally, due to the nature of the decay of \ttbar into a bottom quark + antiquark at least one jet is required to be identified as a result of the hadronization of a $b$ quark.
 This constrain reduces the amount of background events created by Drell-Yan (DY) and W+Jets events.
 
@@ -66,11 +66,11 @@ The main background processes for the $e \, \mu$ decay channel of \ttbar are sin
 In order to calculate the result for the cross section a proper estimate for the number of background events is essential.
 Therefore, multiple methods like the $"R_\mathrm{out/in}"$ method for the DY events or a same-sign to opposite-sign comparison for nonprompt leptonic background is used.
 
-In order to make a appropriate estimation for the cross section systematic uncertainties have to be considered.
+In order to make a appropriate estimation for the cross section, systematic uncertainties have to be considered.
 Some of the major contributions are caused by uncertainties due to the jet energy scale, the lepton efficiencies, the \ttbar NLO generator from the modeling and the uncertainty caused by the luminosity.
 The total systematic uncertainty adds up to $\SI{43.0}{\pico\barn}$ which corresponds to a relative uncertainty of $\SI{5.3}{\%}$.
 
-The cross section is calculated with a event counting method using the formula
+The cross section is calculated with an event counting method using the formula
 \begin{equation*}
 	\sigma _{\ttbarm} = \frac{N - N_{\mathrm{B}}}{\mathcal{A} \mathcal{L}}.
 \end{equation*}
